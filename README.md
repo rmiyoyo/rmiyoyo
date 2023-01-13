@@ -1,3 +1,5 @@
+[![Your Image](https://avatars2.githubusercontent.com/u/yourid?s=400&v=4)](https://github.com/rmiyoyo)
+
 - 👋 Hi, I’m @rmiyoyo
 - 👀 I’m interested in data oriented projects.
 - 🌱 I’m currently learning fullstack development.
