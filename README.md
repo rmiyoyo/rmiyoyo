@@ -1,4 +1,6 @@
-- 👋 Hi, I’m [miyoyo](https://github.com/rmiyoyo)!
+### Hi there, 👋 👋    
+## I'm [miyoyo](https://github.com/rmiyoyo)!
+### Glad you looked for me :)
 - 👀 I’m interested in data oriented projects.
 - 🌱 I’m currently learning fullstack development.
 - 💞️ I’m looking to collaborate on opensource projects.
