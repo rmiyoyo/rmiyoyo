@@ -1,5 +1,23 @@
 <h1 align="center">Hi there 👋 👋, I'm <a href="https://github.com/rmiyoyo">miyoyo</a>!</h1>
-<h2 align="center">Glad you looked for me :)</h2>
+<p align="center">
+  <i>Glad you looked for me :) Let's get in touch!</i>
+<p align="center">
+  <a href= "https://github.com/rmiyoyo/">
+    <img src="https://img.icons8.com/material-outlined/30/689d6a/source-code.png"/>
+  </a>
+  <a href= "https://www.linkedin.com/in/raphael-miyoyo/">
+    <img src="https://img.icons8.com/material-outlined/30/689d6a/linkedin.png"/>
+  </a>
+  <a href= "https://twitter.com/r_miyoyo">
+    <img src="https://img.icons8.com/material-outlined/30/689d6a/twitter.png"/>
+  </a>
+  <a href= "https://rmiyoyo.github.io/Personal-Portfolio-Website/">
+    <img src="https://img.icons8.com/material-outlined/30/689d6a/geography.png"/>
+  </a>
+  <a href="mailto:miyoyogithub@gmail.com">
+    <img src="https://img.icons8.com/ios-glyphs/30/689d6a/physics.png"/>
+  </a>
+</p>
 
 - Currently focusing on data oriented projects.</li>
 - Learning fullstack development.
