@@ -19,9 +19,7 @@
   </a>
 </p>
 
-- Currently focusing on data oriented projects.</li>
-- Learning fullstack development.
-- Looking to collaborate on opensource projects.
-
-- Find me on [Twitter](twitter.com/r_miyoyo).
-- You can also find me on [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/raphael-miyoyo/)
+<h1 align="center">To-Do List</h1>
+<li>Currently focusing on data oriented projects.</li>
+<li>Learning fullstack development.</li>
+<li>Looking to collaborate on opensource projects.</li>
