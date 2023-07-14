@@ -19,6 +19,8 @@
   </a>
 </p>
 
+<h1></h1>
+
 <h1 align="center">To-Do List</h1>
 <li>Currently focusing on data oriented projects.</li>
 <li>Learning fullstack development.</li>
