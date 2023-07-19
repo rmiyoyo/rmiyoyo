@@ -28,6 +28,5 @@
 
 <h1></h1>
 <p  align="center" >
-  <img align="center" src="https://streak-stats.demolab.com?user=rmiyoyo&theme=vue-dark&hide_border=true&border_radius=8" /> <br /> <br />
-</a>
+  <img align="center" src="https://streak-stats.demolab.com?user=rmiyoyo&theme=vue-dark&hide_border=true&border_radius=8" /> 
 </p>
