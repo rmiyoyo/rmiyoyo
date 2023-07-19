@@ -25,3 +25,9 @@
 <li>Currently focusing on data oriented projects.</li>
 <li>Learning fullstack development.</li>
 <li>Looking to collaborate on opensource projects.</li>
+
+<h1></h1>
+<p  align="center" >
+  <img align="center" src="https://streak-stats.demolab.com?user=rmiyoyo&theme=vue-dark&hide_border=true&border_radius=8" /> <br /> <br />
+</a>
+</p>
