@@ -1,4 +1,4 @@
-<h1 align="center">Hi there 👋 👋, I'm <a href="https://github.com/rmiyoyo">miyoyo</a>!</h1>
+<h1 align="center">Hi there 👋, I'm <a href="https://github.com/rmiyoyo">miyoyo</a>!</h1>
 <p align="center">
   <i>Glad you looked for me :) Let's get in touch!</i>
 <p align="center">
@@ -22,9 +22,9 @@
 <h1></h1>
 
 <h1 align="center">To-Do List</h1>
-<li>Currently focusing on data oriented projects.</li>
+<li>I am currently focusing on data oriented projects.</li>
 <li>Learning fullstack development.</li>
-<li>Looking to collaborate on opensource projects.</li>
+<li>Looking to collaborate on opensource projects. Let's talk about your most beloved projects!</li>
 
 <h1></h1>
 <p  align="center" >
