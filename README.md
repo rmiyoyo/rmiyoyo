@@ -1,4 +1,7 @@
-<h1 align="center">Hi there 👋, I'm <a href="https://github.com/rmiyoyo">miyoyo</a>!</h1>
+<h1 align="center">
+  Hi there 👋, I'm <a href="https://github.com/rmiyoyo">miyoyo</a>!<br>
+  <a href="https://wakatime.com/@bb88db6d-e8f9-4f20-aaa6-e03ce12d3c6f"><img src="https://wakatime.com/badge/user/bb88db6d-e8f9-4f20-aaa6-e03ce12d3c6f.svg" alt="Total time coded since Jul 19 2023" /></a>
+</h1>
 <p align="center">
   <i>Glad you looked for me :) Let's get in touch!</i>
 <p align="center">
