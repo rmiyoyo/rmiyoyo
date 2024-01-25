@@ -26,7 +26,7 @@
 
 <h1 align="center">To-Do List</h1>
 <li>I am currently focusing on data oriented projects.</li>
-<li>Learning fullstack development.</li>
+<li>Fully immersed in fullstack development.</li>
 <li>Looking to collaborate on opensource projects. Let's talk about your most beloved projects!</li>
 
 <h1></h1>
