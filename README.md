@@ -1,35 +1,34 @@
-<h1 align="center">
-  Hi there 👋, I'm <a href="https://github.com/rmiyoyo">miyoyo</a>!<br>
-  <a href="https://wakatime.com/@bb88db6d-e8f9-4f20-aaa6-e03ce12d3c6f"><img src="https://wakatime.com/badge/user/bb88db6d-e8f9-4f20-aaa6-e03ce12d3c6f.svg" alt="Total time coded since Jul 19 2023" /></a>
-</h1>
-<p align="center">
-  <i>Glad you looked for me :) Let's get in touch!</i>
-<p align="center">
-  <a href= "https://github.com/rmiyoyo/">
-    <img src="https://img.icons8.com/material-outlined/30/689d6a/source-code.png"/>
-  </a>
-  <a href= "https://www.linkedin.com/in/raphael-miyoyo/">
-    <img src="https://img.icons8.com/material-outlined/30/689d6a/linkedin.png"/>
-  </a>
-  <a href= "https://twitter.com/r_miyoyo">
-    <img src="https://img.icons8.com/material-outlined/30/689d6a/twitter.png"/>
-  </a>
-  <a href= "https://rmiyoyo.github.io/Personal-Portfolio-Website/">
-    <img src="https://img.icons8.com/material-outlined/30/689d6a/geography.png"/>
-  </a>
-  <a href="mailto:miyoyogithub@gmail.com">
-    <img src="https://img.icons8.com/ios-glyphs/30/689d6a/physics.png"/>
-  </a>
-</p>
+# Raphael Miyoyo
 
-<h1></h1>
+Software engineer in Nairobi. I grew up on the shores of Lake Victoria, and for eight years I've been building the systems that move money, data and goods: payments, warehouse integrations and the data pipelines between them.
 
-<h1 align="center">To-Do List</h1>
-<li>I am currently focusing on data oriented projects.</li>
-<li>Fully immersed in fullstack development.</li>
-<li>Looking to collaborate on opensource projects. Let's talk about your most beloved projects!</li>
+## Now
 
-<h1></h1>
-<p  align="center" >
-  <img align="center" src="https://streak-stats.demolab.com?user=rmiyoyo&theme=vue-dark&hide_border=true&border_radius=8" /> 
-</p>
+- **Senior software engineer**, working remotely for a German logistics company on warehouse-management integrations.
+- **Product lead at [Wrangla360](https://app.wrangla360.com)**.
+- **Mentor at [Microverse](https://www.microverse.org)**, since 2023.
+- **Learning Go** by building in the open: [kenya-geo](https://github.com/rmiyoyo/kenya-geo) and [Mapping Kenya](https://mapping-kenya.onrender.com).
+
+## Open source
+
+**[kenya-geo](https://github.com/rmiyoyo/kenya-geo)** is a Go package with Kenya's 47 counties, 1,450 wards and 890 post offices, 2019 census figures and boundaries. It finds the ward for any coordinate, parses postal addresses and serves it all as a JSON API. No dependencies outside the standard library. [Docs on pkg.go.dev](https://pkg.go.dev/github.com/rmiyoyo/kenya-geo).
+
+```go
+geo := kenyageo.Default()
+ward, _ := geo.WardAt(-1.2884, 36.8233)
+fmt.Println(ward.Name, ward.Constituency) // NAIROBI CENTRAL Starehe
+```
+
+**[Mapping Kenya](https://mapping-kenya.onrender.com)** is a website built on it: county maps shaded by population, electricity, internet use, religion and more, with a page for every county, constituency and ward. ([source](https://github.com/rmiyoyo/mapping-kenya))
+
+## What I work with
+
+**Daily:** PHP and Laravel, Python, MySQL, Google Cloud.<br>
+**Payments:** M-Pesa, Pesapal, KopoKopo, Paystack.<br>
+**Learning:** Go, and Rust next.
+
+## Get in touch
+
+[LinkedIn](https://www.linkedin.com/in/raphael-miyoyo/) · [X](https://twitter.com/r_miyoyo) · [Portfolio](https://rmiyoyo.github.io/Personal-Portfolio-Website/) · [Email](mailto:miyoyogithub@gmail.com)
+
+Happy to talk about payments in Africa, open data, or a project you care about.
