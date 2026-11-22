@@ -74,6 +74,7 @@ query($login: String!, $cursor: String) {
     repositories(first: 100, after: $cursor, ownerAffiliations: OWNER, isFork: false) {
       pageInfo { hasNextPage endCursor }
       nodes {
+        name
         isArchived
         languages(first: 25, orderBy: {field: SIZE, direction: DESC}) {
           edges { size node { name color } }
@@ -109,13 +110,16 @@ def fetch_days(token: str, login: str) -> dict[date, int]:
 
 
 def fetch_languages(token: str, login: str) -> dict[str, tuple[int, str]]:
-    """Bytes per language summed over every non-fork repository the user owns."""
+    """Bytes per language summed over every non-fork repository the user owns,
+    leaving out the profile repository itself."""
     totals: dict[str, tuple[int, str]] = {}
     cursor = None
     while True:
         data = graphql(token, REPOS_Q, {"login": login, "cursor": cursor})
         repos = data["user"]["repositories"]
         for repo in repos["nodes"]:
+            if repo["name"].lower() == login.lower():
+                continue  # the profile repository only holds this script
             for edge in repo["languages"]["edges"]:
                 name = edge["node"]["name"]
                 color = edge["node"]["color"] or "#8b949e"
@@ -295,7 +299,8 @@ def write_cards(stats: Stats, langs: list[tuple[str, float, str]], out: Path = O
 
 
 def main() -> int:
-    token = os.environ.get("STATS_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    # Secrets pasted into the GitHub UI often carry a trailing newline.
+    token = (os.environ.get("STATS_TOKEN") or "").strip() or (os.environ.get("GITHUB_TOKEN") or "").strip()
     login = os.environ.get("STATS_USER") or os.environ.get("GITHUB_REPOSITORY_OWNER")
     if not token or not login:
         print("Set STATS_TOKEN (or GITHUB_TOKEN) and STATS_USER.", file=sys.stderr)
