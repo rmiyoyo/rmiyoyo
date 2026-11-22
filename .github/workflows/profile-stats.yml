@@ -1,0 +1,49 @@
+name: Profile stats
+
+on:
+  schedule:
+    - cron: "30 21 * * *" # 00:30 in Nairobi
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/profile_stats.py
+      - .github/workflows/profile-stats.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render cards
+        env:
+          # A personal access token with read access to private repositories.
+          # Without it, only public activity and public repositories are counted.
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATS_USER: ${{ github.repository_owner }}
+        run: python scripts/profile_stats.py
+
+      - name: Commit if changed
+        run: |
+          git add assets/
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git -c user.name="rmiyoyo" \
+              -c user.email="120647236+rmiyoyo@users.noreply.github.com" \
+              commit -m "Update profile stats"
+          git push

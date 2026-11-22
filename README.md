@@ -1,35 +1,30 @@
-<h1 align="center">
-  Hi there 👋, I'm <a href="https://github.com/rmiyoyo">miyoyo</a>!<br>
-  <a href="https://wakatime.com/@bb88db6d-e8f9-4f20-aaa6-e03ce12d3c6f"><img src="https://wakatime.com/badge/user/bb88db6d-e8f9-4f20-aaa6-e03ce12d3c6f.svg" alt="Total time coded since Jul 19 2023" /></a>
-</h1>
-<p align="center">
-  <i>Glad you looked for me :) Let's get in touch!</i>
-<p align="center">
-  <a href= "https://github.com/rmiyoyo/">
-    <img src="https://img.icons8.com/material-outlined/30/689d6a/source-code.png"/>
-  </a>
-  <a href= "https://www.linkedin.com/in/raphael-miyoyo/">
-    <img src="https://img.icons8.com/material-outlined/30/689d6a/linkedin.png"/>
-  </a>
-  <a href= "https://twitter.com/r_miyoyo">
-    <img src="https://img.icons8.com/material-outlined/30/689d6a/twitter.png"/>
-  </a>
-  <a href= "https://rmiyoyo.github.io/Personal-Portfolio-Website/">
-    <img src="https://img.icons8.com/material-outlined/30/689d6a/geography.png"/>
-  </a>
-  <a href="mailto:miyoyogithub@gmail.com">
-    <img src="https://img.icons8.com/ios-glyphs/30/689d6a/physics.png"/>
-  </a>
+### Raphael Miyoyo
+
+Principal engineer and technical consultant in Nairobi. I design and run the systems behind businesses: backends, integrations and data pipelines, from first architecture to production support, for teams in Europe and East Africa.
+
+**Now**
+
+- **Building [Monica](https://monicahr.com)**, a hiring and careers platform for Kenya: jobs, recruiter-led hiring, and CV tools.
+- **Payments and large-scale e-commerce.** Online payment pipelines (M-Pesa, Paystack, Pesapal, KopoKopo), transaction reconciliation, subscriptions and recurring billing, and the order, shop and carrier integrations around them.
+- **Management systems.** ERPs, warehouse and fulfilment platforms, CMSs and internal tools that run a business day to day.
+- **Bringing AI into businesses.** I help companies put language models to work on their own data and workflows, such as support agents over live operational systems, document automation, and the integrations that keep them dependable in production.
+- **Large-scale crawling and data pipelines.** Collecting, cleaning and deduplicating data from many sources, and turning it into something a product can rely on.
+
+**Before**
+
+Eight years across logistics, payments and data, including the multi-carrier shipping and e-commerce integrations of a European fulfilment platform, payment systems processing millions of transactions a year across Kenya, Uganda and Tanzania, and streaming data infrastructure for a public WiFi network with two million users.
+
+Laravel · Python · Django · Go · TypeScript · Vue · PostgreSQL · MySQL · Google Cloud
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+    <img src="assets/stats.svg" alt="Contribution stats" width="420">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
+    <img src="assets/languages.svg" alt="Most used languages" width="420">
+  </picture>
 </p>
 
-<h1></h1>
-
-<h1 align="center">To-Do List</h1>
-<li>I am currently focusing on data oriented projects.</li>
-<li>Fully immersed in fullstack development.</li>
-<li>Looking to collaborate on opensource projects. Let's talk about your most beloved projects!</li>
-
-<h1></h1>
-<p  align="center" >
-  <img align="center" src="https://streak-stats.demolab.com?user=rmiyoyo&theme=vue-dark&hide_border=true&border_radius=8" /> 
-</p>
+[LinkedIn](https://www.linkedin.com/in/rmiyoyo) · [raphael@monicahr.com](mailto:raphael@monicahr.com) · [monicahr.com](https://monicahr.com)
