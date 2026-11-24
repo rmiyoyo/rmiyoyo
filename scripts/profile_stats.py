@@ -32,10 +32,6 @@ OUT = Path(__file__).resolve().parent.parent / "assets"
 
 DEFAULT_EXCLUDE = "HTML,CSS,SCSS,Less,Jupyter Notebook,Procfile,Makefile,Dockerfile"
 
-
-# --------------------------------------------------------------------------- API
-
-
 def graphql(token: str, query: str, variables: dict) -> dict:
     body = json.dumps({"query": query, "variables": variables}).encode()
     req = urllib.request.Request(
@@ -129,10 +125,6 @@ def fetch_languages(token: str, login: str) -> dict[str, tuple[int, str]]:
             return totals
         cursor = repos["pageInfo"]["endCursor"]
 
-
-# ----------------------------------------------------------------------- numbers
-
-
 @dataclass
 class Streak:
     length: int = 0
@@ -162,7 +154,6 @@ def compute_stats(days: dict[date, int], today: date) -> Stats:
             if run.length > longest.length:
                 longest = run
 
-    # A streak stays current through today even if today has no contributions yet.
     current = Streak()
     cursor = today if days.get(today, 0) > 0 else today - timedelta(days=1)
     while days.get(cursor, 0) > 0:
@@ -178,7 +169,6 @@ def compute_stats(days: dict[date, int], today: date) -> Stats:
         active_days=sum(1 for d in ordered if days[d] > 0),
     )
 
-
 def top_languages(totals: dict[str, tuple[int, str]], exclude: set[str], limit: int):
     kept = {k: v for k, v in totals.items() if k.lower() not in exclude}
     grand = sum(size for size, _ in kept.values()) or 1
@@ -188,9 +178,6 @@ def top_languages(totals: dict[str, tuple[int, str]], exclude: set[str], limit: 
     if rest:
         top.append(("Other", rest / grand, "#8b949e"))
     return top
-
-
-# --------------------------------------------------------------------------- SVG
 
 THEMES = {
     "light": {"bg": "#ffffff", "border": "#d0d7de", "fg": "#1f2328", "muted": "#59636e",
