@@ -13,24 +13,24 @@
 <clipPath id="bar"><rect x="20" y="48" width="380" height="8" rx="4"/></clipPath>
 <rect x="20" y="48" width="380" height="8" rx="4" fill="#eaeef2"/>
 <g clip-path="url(#bar)">
-<rect x="20.00" y="48" width="202.46" height="8" fill="#3572A5"/>
-<rect x="221.96" y="48" width="59.35" height="8" fill="#f1e05a"/>
-<rect x="280.82" y="48" width="24.25" height="8" fill="#00ADD8"/>
-<rect x="304.56" y="48" width="23.82" height="8" fill="#701516"/>
-<rect x="327.88" y="48" width="18.44" height="8" fill="#3178c6"/>
-<rect x="345.82" y="48" width="17.34" height="8" fill="#555555"/>
-<rect x="362.66" y="48" width="15.87" height="8" fill="#f7523f"/>
-<rect x="378.03" y="48" width="22.47" height="8" fill="#8b949e"/>
+<rect x="20.00" y="48" width="202.66" height="8" fill="#3572A5"/>
+<rect x="222.16" y="48" width="59.24" height="8" fill="#f1e05a"/>
+<rect x="280.90" y="48" width="24.34" height="8" fill="#00ADD8"/>
+<rect x="304.74" y="48" width="23.77" height="8" fill="#701516"/>
+<rect x="328.01" y="48" width="18.41" height="8" fill="#3178c6"/>
+<rect x="345.92" y="48" width="17.31" height="8" fill="#555555"/>
+<rect x="362.73" y="48" width="15.84" height="8" fill="#f7523f"/>
+<rect x="378.07" y="48" width="22.43" height="8" fill="#8b949e"/>
 </g>
 <circle cx="25.0" cy="76" r="5" fill="#3572A5"/>
 <text class="lang" x="36.0" y="80">Python</text>
-<text class="small" x="194.0" y="80" text-anchor="end">53.1%</text>
+<text class="small" x="194.0" y="80" text-anchor="end">53.2%</text>
 <circle cx="25.0" cy="98" r="5" fill="#f1e05a"/>
 <text class="lang" x="36.0" y="102">JavaScript</text>
 <text class="small" x="194.0" y="102" text-anchor="end">15.5%</text>
 <circle cx="25.0" cy="120" r="5" fill="#00ADD8"/>
 <text class="lang" x="36.0" y="124">Go</text>
-<text class="small" x="194.0" y="124" text-anchor="end">6.2%</text>
+<text class="small" x="194.0" y="124" text-anchor="end">6.3%</text>
 <circle cx="25.0" cy="142" r="5" fill="#701516"/>
 <text class="lang" x="36.0" y="146">Ruby</text>
 <text class="small" x="194.0" y="146" text-anchor="end">6.1%</text>
