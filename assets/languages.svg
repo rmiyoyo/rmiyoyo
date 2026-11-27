@@ -13,18 +13,18 @@
 <clipPath id="bar"><rect x="20" y="48" width="380" height="8" rx="4"/></clipPath>
 <rect x="20" y="48" width="380" height="8" rx="4" fill="#eaeef2"/>
 <g clip-path="url(#bar)">
-<rect x="20.00" y="48" width="199.28" height="8" fill="#3572A5"/>
-<rect x="218.78" y="48" width="57.44" height="8" fill="#f1e05a"/>
-<rect x="275.73" y="48" width="30.30" height="8" fill="#00ADD8"/>
-<rect x="305.53" y="48" width="23.04" height="8" fill="#701516"/>
-<rect x="328.07" y="48" width="21.09" height="8" fill="#3178c6"/>
-<rect x="348.66" y="48" width="16.79" height="8" fill="#555555"/>
-<rect x="364.95" y="48" width="15.36" height="8" fill="#f7523f"/>
-<rect x="379.81" y="48" width="20.69" height="8" fill="#8b949e"/>
+<rect x="20.00" y="48" width="199.50" height="8" fill="#3572A5"/>
+<rect x="219.00" y="48" width="57.38" height="8" fill="#f1e05a"/>
+<rect x="275.87" y="48" width="30.26" height="8" fill="#00ADD8"/>
+<rect x="305.64" y="48" width="23.02" height="8" fill="#701516"/>
+<rect x="328.15" y="48" width="21.06" height="8" fill="#3178c6"/>
+<rect x="348.72" y="48" width="16.77" height="8" fill="#555555"/>
+<rect x="364.99" y="48" width="15.34" height="8" fill="#f7523f"/>
+<rect x="379.83" y="48" width="20.67" height="8" fill="#8b949e"/>
 </g>
 <circle cx="25.0" cy="76" r="5" fill="#3572A5"/>
 <text class="lang" x="36.0" y="80">Python</text>
-<text class="small" x="194.0" y="80" text-anchor="end">52.3%</text>
+<text class="small" x="194.0" y="80" text-anchor="end">52.4%</text>
 <circle cx="25.0" cy="98" r="5" fill="#f1e05a"/>
 <text class="lang" x="36.0" y="102">JavaScript</text>
 <text class="small" x="194.0" y="102" text-anchor="end">15.0%</text>
